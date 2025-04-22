@@ -1,0 +1,19 @@
+public class Magic{
+    public static void main(String[] args) {
+        int n = 50113 ,digit ,sum  ;
+        while(n>9 ){ 
+            sum = 0;
+        while(n>0){
+        digit = n % 10;
+        sum += digit;
+        n /= 10;
+        }
+        n =sum;
+        }
+        
+         System.out.println(n);
+         if(n==1)
+            System.out.println("magic number");
+        
+    }
+}
