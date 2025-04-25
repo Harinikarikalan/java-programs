@@ -1,0 +1,14 @@
+public class Infinity{
+    public static void main(String[] args) {
+        int i =7;
+        
+        while(i>7){
+            if(i % 7 == 0){
+            System.out.println(i);
+            }
+            if( i < 1000){
+                break;
+            }
+        }
+    }
+}
