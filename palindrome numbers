@@ -1,0 +1,9 @@
+public class palindrome{
+    public static void main(String[] args) {
+        for(int i =1;i<=80;i++){
+            if( i <10 || i%10 == i/10){
+                System.out.println(i);
+            }
+        }
+    }
+}
