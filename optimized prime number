@@ -1,0 +1,28 @@
+public class prime{
+
+    public static boolean isprime(int n) {
+        
+        if(n<2){
+        return false;
+        }
+        for(int i = 2; i<= Math.sqrt(n);i++){//math.sqrt = k*k
+            if(n%i == 0){
+            return false;
+        }
+        }
+        
+        return true;
+        
+    }
+
+        public static void main(String [] args){
+        int n = 41;
+        if(isprime(n)){
+            System.out.println("prime");
+        }
+        else{
+            System.out.println("not prime");
+        }
+    }
+    
+}
