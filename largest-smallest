@@ -1,0 +1,18 @@
+public class biggest{
+    public static void main(String[] args) {
+        int mark[] = {100,110,80};
+        int largest = 0 ;int smallest = mark[0];
+        for(int i = 1; i <= mark.length ; i++){
+            if(largest < mark[i]){
+                 largest = mark[i];
+                System.out.println("largest number is:" +largest);
+
+            }
+            if(smallest > mark[i]){
+                smallest = mark[i];
+                System.out.println("smallest number is:" +smallest);
+
+            }
+        }
+    }
+}
