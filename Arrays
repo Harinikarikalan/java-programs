@@ -1,0 +1,17 @@
+public class array{
+    public static void main(String[] args) {
+        
+        int a[] ={0,1,2,3};
+        System.out.println(a);//hashing(which gives unique number or identity)
+       
+
+        for(int i =a.length -1;i>=0;i--){
+            System.out.println(a[i]);
+        }
+        //for-each
+        int arr[] = {6,7,8,9};
+        for(int i:arr)
+        System.out.println(i);
+
+    }
+}
