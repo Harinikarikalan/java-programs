@@ -1,0 +1,20 @@
+class prep{
+    int roll;
+    String name;
+    public void display(){
+    System.out.println(roll);
+    System.out.println(name);}
+}
+class Main {
+    public static void main(String[] args) {
+        prep obj = new prep();
+        obj.roll = 3;
+        obj.name ="hi";
+        obj.display();
+        
+        prep myobj = new prep();
+        myobj.roll = 8;
+        myobj.name = "hello";
+        myobj.display();
+    }
+}
