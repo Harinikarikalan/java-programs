@@ -1,0 +1,15 @@
+public class Sum{
+    public static void main(String[] args) {
+        int m=1 , n=10000 ,sum = 0 ;
+
+        while(m>0){
+            sum = sum + m ;
+            if(m==n){
+                break;
+            }
+            m++;
+        }
+        
+        System.out.println(sum);
+    }
+}
