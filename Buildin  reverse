@@ -1,0 +1,9 @@
+public class Buildreverse{
+    public static void main(String[] args) {
+        int n=123;
+        String s1 = String.valueOF(n);
+        StringBuilder s2 = new StringBuilder(s1);
+        String s3 = s2.reverse().toString();
+        System.out.println(Integer.parseInt(s3));
+    }
+}
