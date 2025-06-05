@@ -1,0 +1,20 @@
+public class Subsequence{
+    public static boolean isSubsequence(String main,String sub) {
+        int i =0;int j=0;
+        char[] c1 =main.toCharArray();
+        char[] c2 =sub.toCharArray();
+        while(i <c1.length && j < c2.length){
+            if(c1[i] == c2[j] ){
+                j++;
+            }
+                i++;
+        }
+        return j == c2.length;
+    }
+    public static void main(String[] args) {
+        String main ="abcde";
+        String sub ="aze";
+        System.out.println(isSubsequence(main,sub));
+        
+    }
+}
