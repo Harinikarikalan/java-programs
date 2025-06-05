@@ -1,0 +1,8 @@
+public class Alphacount{
+    public static void main(String[] args) {
+        String alpha ="india123456";
+        
+        String data =alpha.replaceAll("[^a-zA-Z]" , "");
+        System.out.println(data.length()); 
+}
+}
