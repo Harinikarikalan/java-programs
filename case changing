@@ -1,0 +1,23 @@
+public class Case{
+    static char lower(char s){
+        return (char)(s + 32);
+    }
+    static char upper(char s){
+        return(char)(s -32);
+    }
+    public static void main(String[] args) {
+        String x ="HelLo";
+        x = x.replace("  "," ");
+        char ch[] =x.toCharArray();
+        for(int i=0;i < ch.length;i++){
+            if(ch[i] >= 'A' && ch[i] <= 'Z')
+            ch[i] =lower(ch[i]);
+            else if(ch[i] >= 'a' && ch[i] <= 'z')
+            ch[i]=upper(ch[i]);
+
+        }
+        String s2 = new String(ch);
+        System.out.println(s2);
+
+    }
+}
