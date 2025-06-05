@@ -1,0 +1,15 @@
+public class Alphacount{
+    public static void main(String[] args) {
+        String alpha ="india123456";
+        int j =0;int count = 0;
+        
+        while(j < alpha.length()){
+            char ch = alpha.charAt(j);
+            if((ch >= 'a' && ch <= 'z') || (ch >= 'A'  && ch <='Z')){
+                count++;
+                
+            }j++;
+            
+        }System.out.println(count);
+    }
+}
