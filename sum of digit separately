@@ -1,0 +1,26 @@
+int find =0;
+        if(input2.equals("even")){
+            int even =0;
+            while(input1 > 0){
+                even =input1 % 10;
+
+                if(even % 2 == 0){
+                find += even;
+                }
+                input1 /= 10;
+            }
+           
+        }
+        else{
+            int odd =0;
+            while(input1 > 0){
+                odd =input1 % 10;
+
+                if(odd%2 != 0){
+                find += odd;
+                }
+                input1 /= 10;
+            }
+            
+        }
+        return find; 
