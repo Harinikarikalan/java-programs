@@ -1,0 +1,8 @@
+String val = input1+ " ";
+    int digit =0;int count =0;
+    if(input1 >=1 ){
+        for(int i=1;i < val.length();i++){
+            digit = input1 / 10;
+            count++;
+        }
+    }return count;
