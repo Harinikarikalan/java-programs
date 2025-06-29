@@ -1,0 +1,13 @@
+int[] digitsSeen = new int[10]; // To track digits 0–9
+        int count = 0;
+
+        while (input1 > 0) {
+            int digit = input1 % 10;
+            if (digitsSeen[digit] == 0) {
+                digitsSeen[digit] = 1;
+                count++;
+            }
+            input1 = input1 / 10;
+        }
+
+        return count;
